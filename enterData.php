@@ -57,7 +57,7 @@ if(isset($_POST['submit']))
 
 	$result = mysqli_query($connection,$query);	
 
-	if($result){
+	if($resul==1){
 		echo " Data insert successfull";
 	}else{
 		echo "Insert failed";
